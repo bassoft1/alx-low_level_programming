@@ -1,1 +1,1 @@
-1-alphabet.c
+print alpha
