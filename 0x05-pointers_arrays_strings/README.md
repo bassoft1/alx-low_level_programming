@@ -1,1 +1,1 @@
-task2 strign
+task6
