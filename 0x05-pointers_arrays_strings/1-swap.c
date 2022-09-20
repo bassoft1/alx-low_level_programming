@@ -2,6 +2,7 @@
 
 /**
 *swap_int - swaps two integers' values
+*@n: parameter
 *@a: first integer
 *@a: first integer
 *Return: 0
