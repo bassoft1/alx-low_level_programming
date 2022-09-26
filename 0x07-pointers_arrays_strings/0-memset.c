@@ -1,21 +1,15 @@
 #include "main.h"
+#include <unistd.h>
 
 /**
-* _memset -Fills the first n bytes of the memory area
-* @s: A pointer to the memory area to be filled.
-* @b: the character to fill the memory area with.
-*@n: The number of bytes to be filled.
+ * _putchar - writes the character c to stdout 
+ * @c: The character to print 
 *
-* Return: A pointer to the filled memory area @s.
+ * Return: On success 1.
 */
 
-char * _memset(char *s, char b, unsigned int n)
+int _putchar(char c) 
 {
-while (n)
-{
-s[n - 1] = b;
-n--;
-}
-return (s);
+ return (write(1, &c, 1)); 
 }
 
