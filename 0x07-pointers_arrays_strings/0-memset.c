@@ -4,7 +4,8 @@
 * _memset: fills memory with constant byte
 * @s: memory area
 * @b: bytes
-* @n: number of bytes 
+* @n: number of bytes
+*
 * Return: ponlinter to s
 */
 
