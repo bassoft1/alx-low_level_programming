@@ -1,15 +1,18 @@
 #include "main.h"
-#include <unistd.h>
 
 /**
- * _putchar - writes the character c to stdout 
- * @c: The character to print 
-*
- * Return: On success 1.
+* _memset: fills memory with constant byte
+* @s: memory area
+* @b: bytes
+* @n: number of bytes 
+* Return: ponlinter to s
 */
 
-int _putchar(char c) 
+char *_memset(char *s, char b, unsigned int n)
 {
- return (write(1, &c, 1)); 
+char *ptr = s;
+while (n-- > 0)
+*ptr++ = b;
+return (s);
 }
 
