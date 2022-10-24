@@ -1,4 +1,5 @@
-#include main.h
+#include "main.h"
+
 /**
   * swap_int - swapping the value of two integers
   * @a: points to one value
@@ -11,3 +12,4 @@ int temp = *a;
 *a = *b;
 *b = temp;
 }
+
